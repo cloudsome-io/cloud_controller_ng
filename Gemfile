@@ -57,7 +57,7 @@ gem 'fog-azure-rm', git: 'https://github.com/fog/fog-azure-rm.git', branch: 'fog
 gem 'fog-core', '~> 2.4.0'
 gem 'fog-google', '~> 1.24.1'
 gem 'fog-local'
-gem 'fog-openstack'
+gem 'fog-openstack', git: 'https://github.com/cloudsome-io/fog-openstack.git', branch: "quickfix_multiple_catalog_endpoint"
 
 gem 'cf-uaa-lib', '~> 4.0.7'
 
